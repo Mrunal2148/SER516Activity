@@ -48,7 +48,7 @@ jobs:
 
     - name: Run Test Specific to dev branch
       if: github.ref == 'refs/heads/dev'
-      run: ./gradlew test --tests com.example.Test2
+      run: ./gradlew test --tests Test2
 
   dependency-submission:
     runs-on: ubuntu-latest
